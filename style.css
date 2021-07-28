@@ -1,0 +1,47 @@
+#score {
+    text-align: center;
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/alien-planet-landscape-space-game-background_107791-1847.jpg?size=626&ext=jpg");
+}
+
+#inner {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+
+/* #img_meteor {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225;
+    left: 550px;
+    background-image: ;
+    background-size: cover;
+    animation: rock 1.33s infinite;
+} */
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+}
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+}
